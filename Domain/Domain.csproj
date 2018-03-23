@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BancoDeTalentos\Notifications\**" />
+    <Compile Remove="BancoDeTalentos\Repositories\**" />
+    <Compile Remove="Talento_2\**" />
+    <EmbeddedResource Remove="BancoDeTalentos\Notifications\**" />
+    <EmbeddedResource Remove="BancoDeTalentos\Repositories\**" />
+    <EmbeddedResource Remove="Talento_2\**" />
+    <None Remove="BancoDeTalentos\Notifications\**" />
+    <None Remove="BancoDeTalentos\Repositories\**" />
+    <None Remove="Talento_2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="BancoDeTalentos\Models\Talento.cs.old" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.2" />
+    <PackageReference Include="MediatR" Version="4.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>
