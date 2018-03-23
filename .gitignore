@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+/obj
+/Domain/obj
+/Domain/bin/Debug/netcoreapp2.0
+/Infra.Data/obj
+/Infra.Data/bin/Debug/netcoreapp2.0
+/WebApi/obj
+/WebApi/bin/Debug/netcoreapp2.0
